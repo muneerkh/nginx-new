@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - na`me: nginx
+      - name: nginx
         image: 'muneerkh/my-nginx:latest'
         ports:
         - containerPort: 8080
